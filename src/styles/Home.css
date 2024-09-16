@@ -1,0 +1,54 @@
+/* src/styles/Home.css */
+
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-header {
+    margin-bottom: 20px;
+  }
+  
+  .project-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2a9d8f;
+  }
+  
+  .project-tagline {
+    font-size: 1.25rem;
+    color: #264653;
+  }
+  
+  .home-main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    color: #e76f51;
+    font-weight: bold;
+  }
+  
+  .about-link {
+    color: #e76f51;
+    text-decoration: none;
+  }
+  
+  .about-link:hover {
+    text-decoration: underline;
+  }
+  

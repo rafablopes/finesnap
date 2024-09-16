@@ -1,0 +1,57 @@
+/* src/styles/Sobre.css */
+
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .sobre-header {
+    margin-bottom: 20px;
+  }
+  
+  .sobre-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .sobre-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .bio {
+    text-align: center;
+  }
+  
+  .bio h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .bio p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
